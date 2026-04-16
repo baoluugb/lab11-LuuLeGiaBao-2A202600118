@@ -87,14 +87,14 @@ python hitl/hitl.py
 
 ## Lab Structure (2.5 hours)
 
-| Part | Content | Duration |
-|------|---------|----------|
-| Part 1 | Attack unprotected agent + AI red teaming | 30 min |
-| Part 2A | Implement input guardrails (injection, topic filter) | 20 min |
-| Part 2B | Implement output guardrails (content filter, LLM-as-Judge) | 20 min |
-| Part 2C | NeMo Guardrails with Colang (NVIDIA) | 20 min |
-| Part 3 | Before/after comparison + automated testing pipeline | 30 min |
-| Part 4 | Design HITL workflow | 30 min |
+| Part    | Content                                                    | Duration |
+| ------- | ---------------------------------------------------------- | -------- |
+| Part 1  | Attack unprotected agent + AI red teaming                  | 30 min   |
+| Part 2A | Implement input guardrails (injection, topic filter)       | 20 min   |
+| Part 2B | Implement output guardrails (content filter, LLM-as-Judge) | 20 min   |
+| Part 2C | NeMo Guardrails with Colang (NVIDIA)                       | 20 min   |
+| Part 3  | Before/after comparison + automated testing pipeline       | 30 min   |
+| Part 4  | Design HITL workflow                                       | 30 min   |
 
 ## Deliverables
 
@@ -103,21 +103,21 @@ python hitl/hitl.py
 
 ## 13 TODOs
 
-| # | Description | Framework |
-|---|-------------|-----------|
-| 1 | Write 5 adversarial prompts | - |
-| 2 | Generate attack test cases with AI | Gemini |
-| 3 | Injection detection (regex) | Python |
-| 4 | Topic filter | Python |
-| 5 | Input Guardrail Plugin | Google ADK |
-| 6 | Content filter (PII, secrets) | Python |
-| 7 | LLM-as-Judge safety check | Gemini |
-| 8 | Output Guardrail Plugin | Google ADK |
-| 9 | NeMo Guardrails Colang config | NeMo |
-| 10 | Rerun 5 attacks with guardrails | Google ADK |
-| 11 | Automated security testing pipeline | Python |
-| 12 | Confidence Router (HITL) | Python |
-| 13 | Design 3 HITL decision points | Design |
+| #   | Description                         | Framework  |
+| --- | ----------------------------------- | ---------- |
+| 1   | Write 5 adversarial prompts         | -          |
+| 2   | Generate attack test cases with AI  | Gemini     |
+| 3   | Injection detection (regex)         | Python     |
+| 4   | Topic filter                        | Python     |
+| 5   | Input Guardrail Plugin              | Google ADK |
+| 6   | Content filter (PII, secrets)       | Python     |
+| 7   | LLM-as-Judge safety check           | Gemini     |
+| 8   | Output Guardrail Plugin             | Google ADK |
+| 9   | NeMo Guardrails Colang config       | NeMo       |
+| 10  | Rerun 5 attacks with guardrails     | Google ADK |
+| 11  | Automated security testing pipeline | Python     |
+| 12  | Confidence Router (HITL)            | Python     |
+| 13  | Design 3 HITL decision points       | Design     |
 
 ## References
 
@@ -128,4 +128,3 @@ python hitl/hitl.py
 - [AI Safety Fundamentals](https://aisafetyfundamentals.com/)
 - [AI Red Teaming Guide](https://github.com/requie/AI-Red-Teaming-Guide)
 - [antoan.ai - AI Safety Vietnam](https://antoan.ai)
-
